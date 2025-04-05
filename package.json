@@ -1,0 +1,15 @@
+{
+  "name": "fm-01-blog-preview-card",
+  "version": "1.0.0",
+  "description": "Frontend Mentor - Blog preview card solution",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass sass/style.scss css/style.css -w",
+    "compile:sass": "sass sass/style.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.86.3"
+  }
+}
