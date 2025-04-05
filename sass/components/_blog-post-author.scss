@@ -1,0 +1,10 @@
+@use "../base/typography";
+
+
+.blog-post-author {
+    @include typography.footer-font();
+
+    &__avatar {}
+    
+    &__name {}
+}

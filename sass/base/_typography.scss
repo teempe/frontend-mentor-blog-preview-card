@@ -1,0 +1,48 @@
+@use '../abstracts/variables';
+
+
+@mixin base-font {
+    font-family: var(--ff-body);
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    font-weight: var(--fw-medium);
+    font-size: 1.4rem;
+
+    @media only screen and (min-width: variables.$bp-desktop) {
+        font-size: 1.6rem;
+    }
+}
+
+@mixin title-font {
+    font-weight: var(--fw-extra-bold);
+    font-size: 2.0rem;
+
+    @media only screen and (min-width: variables.$bp-desktop) {
+        font-size: 2.4rem;
+    }
+}
+
+@mixin date-font {
+    font-weight: var(--fw-medium);
+    font-size: 1.2rem;
+
+    @media only screen and (min-width: variables.$bp-desktop) {
+        font-size: 1.4rem;
+    }
+}
+
+@mixin tag-font {
+    font-weight: var(--fw-extra-bold);
+    font-size: 1.2rem;
+
+    @media only screen and (min-width: variables.$bp-desktop) {
+        font-size: 1.4rem;
+    }
+}
+
+@mixin footer-font {
+    font-weight: var(--fw-extra-bold);
+    font-size: 1.4rem;
+}

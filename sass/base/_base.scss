@@ -1,3 +1,5 @@
+@use "typography";
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +16,8 @@ html {
 }
 
 body {
+    @include typography.base-font();
+    
     // center content on page
     display: grid;
     place-content: center;

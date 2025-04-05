@@ -1,0 +1,19 @@
+@use "../base/typography";
+
+
+.blog-post-prev {
+
+    &__tag {
+        @include typography.tag-font();
+    }
+
+    &__published {
+        @include typography.date-font();
+    }
+
+    &__title {
+        @include typography.title-font();
+    }
+
+    &__abstract {}
+}
