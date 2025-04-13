@@ -4,7 +4,13 @@
 .blog-post-author {
     @include typography.footer-font();
 
-    &__avatar {}
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+
+    &__avatar {
+        height: 100%;
+    }
     
     &__name {}
 }

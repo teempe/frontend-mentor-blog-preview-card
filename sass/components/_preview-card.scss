@@ -1,6 +1,21 @@
 .preview-card {
+    background-color: var(--color-white);
+    border: 0.01rem solid var(--color-gray-950);
+    border-radius: 2rem;
+    box-shadow: 0.8rem 0.8rem 0rem 0rem var(--color-black);
+    padding: 2.4rem;
+    width: clamp(32.7rem, 87vw, 38.4rem);
 
-    &__illustration {}
+    display: grid;
+    row-gap: 2.4rem;
+    grid-template-rows: 20rem auto 3.2rem;
+
+    &__illustration {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 1rem;
+    }
     
     &__content {}
     

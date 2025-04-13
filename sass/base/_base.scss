@@ -16,10 +16,12 @@ html {
 }
 
 body {
-    @include typography.base-font();
-    
     // center content on page
     display: grid;
     place-content: center;
     min-height: 100vh;
+    
+    background-color: var(--color-yellow);
+
+    @include typography.base-font();
 }

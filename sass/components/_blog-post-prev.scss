@@ -2,6 +2,10 @@
 
 
 .blog-post-prev {
+    display: grid;
+    justify-items: start;
+    row-gap: 1.2rem;
+    color: var(--color-gray-950);
 
     &__tag {
         @include typography.tag-font();
@@ -15,5 +19,7 @@
         @include typography.title-font();
     }
 
-    &__abstract {}
+    &__abstract {
+        color: var(--color-gray-500);
+    }
 }
