@@ -17,6 +17,16 @@
 
     &__title {
         @include typography.title-font();
+
+        & a:link, a:visited {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.25s ease-out;
+        }
+
+        & a:hover, a:active {
+            color: var(--color-yellow);
+        }
     }
 
     &__abstract {

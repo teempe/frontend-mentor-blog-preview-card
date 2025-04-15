@@ -94,6 +94,14 @@ body {
     font-size: 2.4rem;
   }
 }
+.blog-post-prev__title a:link, .blog-post-prev__title a:visited {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.25s ease-out;
+}
+.blog-post-prev__title a:hover, .blog-post-prev__title a:active {
+  color: var(--color-yellow);
+}
 .blog-post-prev__abstract {
   color: var(--color-gray-500);
 }
